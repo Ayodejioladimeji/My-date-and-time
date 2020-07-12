@@ -62,35 +62,9 @@ body{
     text-shadow:2px 2px #00ff00;
 }
 
-.span1{
-    position:absolute;
-    bottom:50px;
-    left:40px;
-    font-size:35px;
-}
-.span2{
-    position:absolute;
-    bottom:50px;
-    left:105px;
-    font-size:35px;
-}
-.span3{
-    position:absolute;
-    bottom:50px;
-    left:165px;
-    font-size:35px;
-}
-.span4{
-    position:absolute;
-    bottom:50px;
-    left:225px;
-    font-size:35px;
-}
-.span5{
-    position:absolute;
-    bottom:50px;
-    left:290px;
-    font-size:35px;
+span{
+    font-size:30px;
+    margin-left:25px;
 }
 
 .design{
@@ -103,6 +77,26 @@ body{
     font-weight:bold;
 }
 
+.smiley{
+    width:62%;
+    height:50px;
+    margin-top:-60px;
+}
+
+.info{
+    background:rgb(2, 2, 39);
+    font-size:12px;
+    color:#00ff00;
+    height:30px;
+}
+
+marquee span{
+    font-size:15px;
+    color:rgb(240, 15, 210);
+    font-family:cursive;
+    padding:10px;
+    text-shadow:1px 1px white;
+}
 
 
 /* ========THE SECTION OF THE MEDIA QUERY========== */
@@ -173,35 +167,9 @@ body{
     text-shadow:1px 1px #00ff00;
 }
 
-.span1{
-    position:absolute;
-    bottom:30px;
-    left:20px;
+span{
     font-size:20px;
-}
-.span2{
-    position:absolute;
-    bottom:40px;
-    left:60px;
-    font-size:20px;
-}
-.span3{
-    position:absolute;
-    bottom:20px;
-    left:100px;
-    font-size:20px;
-}
-.span4{
-    position:absolute;
-    bottom:40px;
-    left:140px;
-    font-size:20px;
-}
-.span5{
-    position:absolute;
-    bottom:30px;
-    left:180px;
-    font-size:20px;
+    margin-left:0px;
 }
 
 .design{
@@ -210,10 +178,31 @@ body{
     color:red;
     border-radius:25px;
     text-align:center;
-    padding:3px;
+    padding:5px;
     font-weight:bold;
 }
-    
+
+.smiley{
+    width:62%;
+    height:50px;
+    margin-top:-50px;
+/*     background:red; */
+}
+
+.info{
+    background:rgb(2, 2, 39);
+    font-size:12px;
+    color:#00ff00;
+    height:30px;
+}
+
+marquee span{
+    font-size:15px;
+    color:rgb(240, 15, 210);
+    font-family:cursive;
+    padding:10px;
+    text-shadow:1px 1px white;
+}    
 }
 
 
@@ -288,35 +277,9 @@ body{
     text-shadow:1px 1px #00ff00;
 }
 
-.span1{
-    position:absolute;
-    bottom:30px;
-    left:40px;
-    font-size:20px;
-}
-.span2{
-    position:absolute;
-    bottom:40px;
-    left:100px;
-    font-size:20px;
-}
-.span3{
-    position:absolute;
-    bottom:20px;
-    left:145px;
-    font-size:20px;
-}
-.span4{
-    position:absolute;
-    bottom:40px;
-    left:185px;
-    font-size:20px;
-}
-.span5{
-    position:absolute;
-    bottom:30px;
-    left:240px;
-    font-size:20px;
+span{
+    font-size:25px;
+    margin-left:0px;
 }
 
 .design{
@@ -325,9 +288,31 @@ body{
     color:red;
     border-radius:25px;
     text-align:center;
-    padding:3px;
+    padding:5px;
     font-weight:bold;
 }
+
+.smiley{
+    width:62%;
+    height:50px;
+    margin-top:-50px;
+/*     background:red; */
+}
+
+.info{
+    background:rgb(2, 2, 39);
+    font-size:12px;
+    color:#00ff00;
+    height:30px;
+}
+
+marquee span{
+    font-size:15px;
+    color:rgb(240, 15, 210);
+    font-family:cursive;
+    padding:10px;
+    text-shadow:1px 1px white;
+}   
     
 }
 
@@ -403,36 +388,9 @@ body{
     line-height:80px;
     text-shadow:1px 1px #00ff00;
 }
-
-.span1{
-    position:absolute;
-    bottom:30px;
-    left:40px;
-    font-size:20px;
-}
-.span2{
-    position:absolute;
-    bottom:40px;
-    left:100px;
-    font-size:20px;
-}
-.span3{
-    position:absolute;
-    bottom:20px;
-    left:145px;
-    font-size:20px;
-}
-.span4{
-    position:absolute;
-    bottom:40px;
-    left:185px;
-    font-size:20px;
-}
-.span5{
-    position:absolute;
-    bottom:30px;
-    left:240px;
-    font-size:20px;
+span{
+    font-size:25px;
+    margin-left:0px;
 }
 
 .design{
@@ -441,8 +399,30 @@ body{
     color:red;
     border-radius:25px;
     text-align:center;
-    padding:3px;
+    padding:5px;
     font-weight:bold;
+}
+
+.smiley{
+    width:62%;
+    height:50px;
+    margin-top:-50px;
+/*     background:red; */
+}
+
+.info{
+    background:rgb(2, 2, 39);
+    font-size:12px;
+    color:#00ff00;
+    height:30px;
+}
+
+marquee span{
+    font-size:15px;
+    color:rgb(240, 15, 210);
+    font-family:cursive;
+    padding:10px;
+    text-shadow:1px 1px white;
 }
     
 }
@@ -452,9 +432,123 @@ body{
 
 
 
+
+
 /* ========THE SECTION OF THE MEDIA QUERY========== */
 
-@media screen and (max-width:768px) and (min-width:426px){
+@media screen and (max-width:540px) and (min-width:426px){
+
+    *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url('myown.jpg');
+}
+
+.header{
+    background:transparent;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:90%;
+    height:400px;
+    border:15px solid rgb(2, 2, 39);
+}
+
+.main{
+    background:rgb(15, 15, 68);
+    height:100%;
+    width:100%;
+    border-top:9px solid transparent; 
+    border-left:9px solid transparent;
+    border-right:9px solid transparent;
+    border-bottom:9px solid transparent;
+}
+
+#date{
+    width:100%;
+    height:30%;
+    border-top:3px solid #00ff00;
+    border-left:3px solid #00ff00;
+    border-right:3px solid #00ff00;
+    border-radius:25px;
+    color:white;
+    font-family:monospace;
+    font-size:30px;
+    text-align:center;
+    padding:20px;
+    font-weight:bold;
+}
+
+
+#time{
+    width:100%;
+    height:60%;
+    border-bottom:3px solid #00ff00;
+    border-left:3px solid #00ff00;
+    border-right:3px solid #00ff00;
+    border-radius:25px;
+    color:white;
+    font-family:monospace;
+    font-size:55px;
+    text-align:center;
+    padding:60px 20px;
+    font-weight:bold;
+    line-height:80px;
+    text-shadow:1px 1px #00ff00;
+}
+
+span{
+    font-size:25px;
+    margin-left:0px;
+}
+
+.design{
+    width:50%;
+    background:#00ff00;
+    color:red;
+    border-radius:25px;
+    text-align:center;
+    padding:5px;
+    font-weight:bold;
+}
+
+.smiley{
+    width:62%;
+    height:50px;
+    margin-top:-50px;
+/*     background:red; */
+}
+
+.info{
+    background:rgb(2, 2, 39);
+    font-size:12px;
+    color:#00ff00;
+    height:30px;
+}
+
+marquee span{
+    font-size:15px;
+    color:rgb(240, 15, 210);
+    font-family:cursive;
+    padding:10px;
+    text-shadow:1px 1px white;
+}
+}
+
+
+
+
+
+
+
+/* ========THE SECTION OF THE MEDIA QUERY========== */
+
+@media screen and (max-width:768px) and (min-width:541px){
 
     *{
     box-sizing:border-box;
@@ -520,35 +614,9 @@ body{
     text-shadow:1px 1px #00ff00;
 }
 
-.span1{
-    position:absolute;
-    bottom:30px;
-    left:80px;
-    font-size:30px;
-}
-.span2{
-    position:absolute;
-    bottom:50px;
-    left:200px;
-    font-size:30px;
-}
-.span3{
-    position:absolute;
-    bottom:20px;
-    left:310px;
-    font-size:30px;
-}
-.span4{
-    position:absolute;
-    bottom:50px;
-    left:415px;
-    font-size:30px;
-}
-.span5{
-    position:absolute;
-    bottom:30px;
-    left:540px;
-    font-size:30px;
+span{
+    font-size:25px;
+    margin-left:0px;
 }
 
 .design{
@@ -557,10 +625,31 @@ body{
     color:red;
     border-radius:25px;
     text-align:center;
-    padding:3px;
+    padding:5px;
     font-weight:bold;
 }
-    
+
+.smiley{
+    width:62%;
+    height:50px;
+    margin-top:-50px;
+/*     background:red; */
+}
+
+.info{
+    background:rgb(2, 2, 39);
+    font-size:12px;
+    color:#00ff00;
+    height:30px;
+}
+
+marquee span{
+    font-size:15px;
+    color:rgb(240, 15, 210);
+    font-family:cursive;
+    padding:10px;
+    text-shadow:1px 1px white;
+}
 }
 
 
@@ -636,35 +725,9 @@ body{
     text-shadow:1px 1px #00ff00;
 }
 
-.span1{
-    position:absolute;
-    bottom:30px;
-    left:120px;
-    font-size:30px;
-}
-.span2{
-    position:absolute;
-    bottom:50px;
-    left:275px;
-    font-size:30px;
-}
-.span3{
-    position:absolute;
-    bottom:20px;
-    left:410px;
-    font-size:30px;
-}
-.span4{
-    position:absolute;
-    bottom:50px;
-    left:560px;
-    font-size:30px;
-}
-.span5{
-    position:absolute;
-    bottom:30px;
-    left:730px;
-    font-size:30px;
+span{
+    font-size:35px;
+    margin-left:0px;
 }
 
 .design{
@@ -673,8 +736,30 @@ body{
     color:red;
     border-radius:25px;
     text-align:center;
-    padding:3px;
+    padding:5px;
     font-weight:bold;
+}
+
+.smiley{
+    width:62%;
+    height:50px;
+    margin-top:-60px;
+/*     background:red; */
+}
+
+.info{
+    background:rgb(2, 2, 39);
+    font-size:12px;
+    color:#00ff00;
+    height:30px;
+}
+
+marquee span{
+    font-size:18px;
+    color:rgb(240, 15, 210);
+    font-family:cursive;
+    padding:10px;
+    text-shadow:1px 1px white;
 }
     
 }
